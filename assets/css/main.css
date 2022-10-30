@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Roboto:ital@0;1&family=Syncopate:wght@400;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito+Sans&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    
+    --color-body: #ffffff;
+    --color-heading: #3c3c3d;
+    --color-base: #38b6ff;
+    --color-base2: #83ec54;
+    --color-brand: #e0f780;
+    --color-brand2: #deff58;
+    --sidbar-width: 150px;
+    --font-base: "Merriweather";
+}
+
+
+body{
+    background-color: var(--color-body);
+    color: var(--color-heading);
+    font-family: var(--font-base), sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: var(--color-body) !important;
+    
+
+    font-weight: 500;
+
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-base) !important;
+    
+    transition: all 0.4s ease;
+}
+
+a:hover{
+    color: var(--color-base2) !important;
+}
+
+
+
+.link-custom{
+   position: relative !important;
+
+}
+
+.link-custom::after{
+    content: "" !important;
+    width: 0% !important;
+    height: 3px !important;
+    background-color: var(--color-base2) !important;
+    position: absolute !important;
+    left: 0 !important;
+    top: 80% !important;
+    transition: all 0.4s !important;
+    padding-bottom: 1px;
+}
+
+.link-custom:hover::after {
+    width: 100% !important;
+}
+
+
+img{
+    width: 100%;
+}
+
+.logo{
+    font-family: 'Roboto', sans-serif !important;
+    letter-spacing: 2px;
+    color: var(--color-heading) !important ;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+.blue{
+    color: var(--color-base);
+}
+
+.green{
+    color: #83ec54;
+}
+
+.nav .navbar{
+    background-color: var(--color-body) !important;
+}
+
+.nav-link{
+    color: var(--color-base);
+}
+
+span{
+    color: #3c3c3d ;
+}
