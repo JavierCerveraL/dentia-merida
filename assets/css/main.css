@@ -20,7 +20,6 @@
     --color-base2: #83ec54;
     --color-brand: #e0f780;
     --color-brand2: #deff58;
-    --sidbar-width: 150px;
     --font-base: "Merriweather";
 }
 
@@ -32,28 +31,73 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6{
-    color: var(--color-body) !important;
+    color: var(--color-heading) !important;
     
 
     font-weight: 500;
 
 }
+img{
+    width: 100%;
+}
 
-a{
+
+
+
+
+/* NAVBAR */
+
+
+.logo{
+    font-family: 'Roboto', sans-serif !important;
+    letter-spacing: 2px;
+    color: var(--color-heading) !important ;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+
+.blue{
+    color: var(--color-base);
+}
+
+.green{
+    color: #83ec54;
+}
+
+.nav .navbar{
+    background-color: var(--color-body) !important;
+}
+
+.nav-link{
+    color: var(--color-base) !important;
+    font-weight: 700;
+}
+
+span{
+    color: #3c3c3d ;
+}
+
+
+
+.nav-link{
     text-decoration: none;
     color: var(--color-base) !important;
     
     transition: all 0.4s ease;
 }
 
-a:hover{
+.nav-link:hover{
     color: var(--color-base2) !important;
 }
 
 
 
+
+
 .link-custom{
-   position: relative !important;
+position: relative !important;
 
 }
 
@@ -74,35 +118,19 @@ a:hover{
 }
 
 
-img{
-    width: 100%;
+
+
+
+.btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: var(--color-base2);
+    color: var(--color-body);
+    border-color: #83ec54;
 }
 
-.logo{
-    font-family: 'Roboto', sans-serif !important;
-    letter-spacing: 2px;
-    color: var(--color-heading) !important ;
-    font-size: 30px;
-    font-weight: 700;
-    
-}
-
-.blue{
-    color: var(--color-base);
-}
-
-.green{
-    color: #83ec54;
-}
-
-.nav .navbar{
-    background-color: var(--color-body) !important;
-}
-
-.nav-link{
-    color: var(--color-base);
-}
-
-span{
-    color: #3c3c3d ;
+.green-break{
+    background-color: var(--color-base2);
+    border-bottom: 100px solid #83ec54;
+    z-index: -10;
 }
