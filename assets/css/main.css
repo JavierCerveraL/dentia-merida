@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Roboto:ital@0;1&family=Syncopate:wght@400;700&display=swap');
-
-
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Merriweather&family=Nunito+Sans&family=Roboto:wght@400;700&family=Rubik:wght@400;500;700&display=swap');
 
 
 *{
@@ -20,7 +16,7 @@
     --color-base2: #83ec54;
     --color-brand: #e0f780;
     --color-brand2: #deff58;
-    --font-base: "Robot";
+    --font-base: "Rubik";
 }
 
 
@@ -45,42 +41,40 @@ img{
 
 header{
     background-image:url(https://javiercerveral.github.io/dentia-merida//assets/media/bg.jpg);
-    min-height: 600px;
-    max-height: 700px;
-    height: 100%;
-    background-position: center;
     background-size: cover;
-    overflow: hidden;
+    height: 650px;
+    position: relative;
+    border-bottom: 5px solid var(--color-brand2);
 }
 
 .titulo{
-    
+    color: #3a89dc;
     font-size: 3em;
     font-weight: 700;
     text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 
-   
-    align-items: center;
-    margin-top: 10%;
-    margin-left: 5%;
-    overflow: hidden;
+    
 }
 
-.dent{
-    width: 25%;
-    height: auto;
+.subtitulo{
+    font-size: 0.4em !important;
+
 }
+
+
 
 /* NAVBAR */
 
+.container{
+    max-width: 1030px;
+}
 
-.logo{
-    font-family: 'Roboto', sans-serif !important;
-    letter-spacing: 2px;
-    color: var(--color-heading) !important ;
-    font-size: 30px;
-    font-weight: 700;
-    
+
+#logo{
+    width: 120px;
 }
 
 
@@ -93,7 +87,7 @@ header{
 }
 
 .nav .navbar{
-    background-color: var(--color-body) !important;
+    background-color: var(--color-body2) !important;
 }
 
 .nav-link{
@@ -150,14 +144,11 @@ position: relative !important;
 .btn{
     padding-left: 20px;
     padding-right: 20px;
-    background-color: var(--color-base2);
+    background-color: hsl(348, 100%, 61%);
     color: var(--color-body);
-    border-color: #83ec54;
+    font-weight: 600;
+    border-color:  hsl(348, 100%, 61%);
     border-radius: 50px;
 }
 
-.green-break{
-    background-color: var(--color-base2);
-    border-bottom: 100px solid #83ec54;
-    z-index: -10;
-}
+
