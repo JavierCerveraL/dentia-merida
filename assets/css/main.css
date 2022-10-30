@@ -44,7 +44,7 @@ img{
 
 
 header{
-    background-image: url(https://javiercerveral.github.io/dentia-merida/assets/media/blue\ background\(1\).jpg);
+    background-image:url(https://javiercerveral.github.io/dentia-merida//assets/media/bg.jpg);
     min-height: 600px;
     max-height: 700px;
     height: 100%;
@@ -54,11 +54,11 @@ header{
 }
 
 .titulo{
-    color: #054e77;
-    font-size: 45px;
-    font-weight: 500;
     
-    position: sticky;
+    font-size: 3em;
+    font-weight: 700;
+    text-transform: uppercase;
+
    
     align-items: center;
     margin-top: 10%;
