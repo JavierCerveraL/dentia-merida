@@ -20,7 +20,7 @@
     --color-base2: #83ec54;
     --color-brand: #e0f780;
     --color-brand2: #deff58;
-    --font-base: "Merriweather";
+    --font-base: "Robot";
 }
 
 
@@ -43,7 +43,33 @@ img{
 
 
 
+header{
+    background-image: url(/assets/media/blue\ background\(1\).jpg);
+    min-height: 600px;
+    max-height: 700px;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
 
+.titulo{
+    color: #054e77;
+    font-size: 45px;
+    font-weight: 500;
+    
+    position: sticky;
+   
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 5%;
+    overflow: hidden;
+}
+
+.dent{
+    width: 25%;
+    height: auto;
+}
 
 /* NAVBAR */
 
@@ -127,6 +153,7 @@ position: relative !important;
     background-color: var(--color-base2);
     color: var(--color-body);
     border-color: #83ec54;
+    border-radius: 50px;
 }
 
 .green-break{
