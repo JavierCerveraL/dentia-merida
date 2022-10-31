@@ -40,11 +40,11 @@ img{
 
 
 header{
-    background-image:url(https://javiercerveral.github.io/dentia-merida//assets/media/bg.jpg);
+    background-image:url(https://javiercerveral.github.io/dentia-merida/assets/media/bg2.jpg);
     background-size: cover;
-    height: 650px;
+    height: 750px;
     position: relative;
-    border-bottom: 5px solid var(--color-brand2);
+    /* border-bottom: 3px solid var(--color-base2); */
 }
 
 .titulo{
