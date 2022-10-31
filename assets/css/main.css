@@ -42,6 +42,7 @@ img{
 header{
     background-image:url(https://javiercerveral.github.io/dentia-merida/assets/media/bg2.jpg);
     background-size: cover;
+    background-position: center;
     height: 750px;
     position: relative;
     /* border-bottom: 3px solid var(--color-base2); */
@@ -54,6 +55,7 @@ header{
     text-transform: uppercase;
     position: absolute;
     top: 50%;
+    
     transform: translateY(-50%);
 
     
@@ -152,3 +154,17 @@ position: relative !important;
 }
 
 
+
+
+/* SERVICIOS */
+
+#row-servicios{
+    background-color: #83ec54;
+    
+
+}
+
+#row-servicios img{
+    border-radius: 10%;
+    margin-bottom: 25px;
+}
