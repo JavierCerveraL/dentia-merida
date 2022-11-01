@@ -7,11 +7,13 @@
     box-sizing: border-box;
 }
 
+html, body{
+    /* width: 100%;
+    height: 100%; */
 
-html {
-    scroll-behavior: smooth;
-  }
-
+   
+    overflow-x: hidden;
+}
 
 :root{
     
@@ -58,7 +60,7 @@ header{
 
 .titulo{
     color: #3a89dc;
-    font-size: 3.1em;
+    font-size: 2.5em;
     font-weight: 700;
     text-transform: uppercase;
     position: absolute;
